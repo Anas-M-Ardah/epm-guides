@@ -1,0 +1,4 @@
+TRAINING ONLY — synthetic measurement example.
+TRAIN-EM-20260923: 10 units x 500 = 5,000 IQD award allocation.
+Reserve: 0; supervision: 500, from training finance letter.
+Total: 5,500 IQD. These are entered amounts, not automatic percentages.

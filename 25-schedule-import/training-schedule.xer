@@ -1,0 +1,6 @@
+ERMHDR	19.12
+%T	TASK
+%F	task_code	task_name	wbs_id	wbs_name	target_start_date	target_end_date	target_cost	target_work_qty	task_type
+%R	A10	خرسانة الأساسات — تدريب	C.1	الأعمال المدنية	2026-01-01 08:00	2026-06-30 17:00	400000	1000	TT_Task
+%R	A20	أعمال الجدران — تدريب	C.1	الأعمال المدنية	2026-07-01 08:00	2026-12-31 17:00	400000	1000	TT_Task
+%E
