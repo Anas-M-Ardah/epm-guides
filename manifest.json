@@ -31,11 +31,11 @@
           "label": "سجل مساحات العمل",
           "path": "07-entities-voice-sample/workspace-creation.voice.ar.mp4",
           "original": "07-entities/walkthrough.ar.mp4",
-          "durationSeconds": 145.424,
+          "durationSeconds": 155.24,
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ar-IQ-BasselNeural"
+          "syntheticVoice": "ar-SA-HamedNeural"
         }
       ],
       "page": "07-entities/lesson.html",
@@ -1634,7 +1634,7 @@
     }
   ],
   "videoCount": 45,
-  "totalFastDurationSeconds": 3923.2557049999996,
+  "totalFastDurationSeconds": 3933.071705,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
   "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل دليل. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
