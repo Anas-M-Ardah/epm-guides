@@ -81,12 +81,13 @@
         {
           "id": "05-project-create-supply",
           "label": "مثال التجهيز",
-          "path": "05-project-create-supply/walkthrough.fast.ar.mp4",
+          "path": "voice-preview/supply/supply.mp4",
           "original": "05-project-create-supply/walkthrough.ar.mp4",
-          "durationSeconds": 125.333333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
+          "durationSeconds": 144.221688,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "ElevenLabs George"
         }
       ],
       "page": "05-project-create/lesson.html",
@@ -1635,7 +1636,7 @@
     }
   ],
   "videoCount": 45,
-  "totalFastDurationSeconds": 3852.146591,
+  "totalFastDurationSeconds": 3871.034946,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
   "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل دليل. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
