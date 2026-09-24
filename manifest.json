@@ -61,7 +61,7 @@
         "الكلفة المقررة يجب أن تكون أكبر من صفر."
       ],
       "limits": "الحقول الحالية تغيرت بعد التسجيل؛ يحتاج الفيديو إلى تحديث قبل اعتماده دليلاً للنسخة الحالية.",
-      "video": "05-project-create-construction/walkthrough.fast.ar.mp4",
+      "video": "voice-preview/construction/construction.mp4",
       "guide": "05-project-create/WALKTHROUGH.ar.md",
       "status": "recorded",
       "captureDate": "2026-09-22/2026-09-23",
@@ -70,12 +70,13 @@
         {
           "id": "05-project-create-construction",
           "label": "المثال الإنشائي",
-          "path": "05-project-create-construction/walkthrough.fast.ar.mp4",
+          "path": "voice-preview/construction/construction.mp4",
           "original": "05-project-create-construction/walkthrough.ar.mp4",
-          "durationSeconds": 151.933333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
+          "durationSeconds": 150.114479,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "ElevenLabs George"
         },
         {
           "id": "05-project-create-supply",
@@ -1634,7 +1635,7 @@
     }
   ],
   "videoCount": 45,
-  "totalFastDurationSeconds": 3853.9654450000003,
+  "totalFastDurationSeconds": 3852.146591,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
   "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل دليل. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
