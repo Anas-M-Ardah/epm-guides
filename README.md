@@ -2,7 +2,7 @@
 
 Static Arabic video library. Open index.html or publish this folder as a GitHub Pages site.
 
-Includes 41 screen guides and 46 videos. Four updated videos are integrated into their lessons; the voice script is linked from the main index.
+Includes 40 screen guides and 45 videos. Start with workspace creation using the sequential player. The Rules module is excluded to match the reference's module scope. Four updated videos are integrated into their lessons; the voice script is linked from the main index. Cairo is bundled locally under its OFL license.
 
 ## Publish
 

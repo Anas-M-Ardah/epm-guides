@@ -1,153 +1,46 @@
 {
-  "preparedOn": "2026-09-23",
+  "preparedOn": "2026-09-24",
   "acceptanceComplete": false,
   "screens": [
     {
-      "id": "01-landing",
-      "title": "الصفحة التعريفية",
-      "route": "/",
-      "source": "auth/landing",
-      "purpose": "التعرف على النظام والوصول إلى تسجيل الدخول.",
+      "id": "07-entities",
+      "title": "إنشاء مساحة عمل",
+      "route": "/entities",
+      "source": "entities/entities",
+      "purpose": "إنشاء الجهة المالكة أولاً، ثم إنشاء المشاريع داخل مساحة عملها.",
       "steps": [
-        "افتح الصفحة دون جلسة مسجلة",
-        "اقرأ تعريف المنصة",
-        "اختر تسجيل الدخول"
+        "افتح مساحات العمل بدور مدير عام",
+        "أضف رمز الجهة واسمها ونوعها",
+        "احفظ وتحقق من ظهور السجل",
+        "افتح الجهة للوصول إلى نظرتها العامة"
       ],
       "rules": [
-        "المستخدم الذي لديه جلسة ينتقل من الصفحة الرئيسية إلى المحفظة."
+        "الرمز المكرر مرفوض.",
+        "إنشاء مساحة العمل ليس متاحاً لكل الأدوار.",
+        "المستخدم المختص يرى الجهات المسندة إليه."
       ],
-      "limits": "هذه صفحة تعريفية وليست لوحة مؤشرات.",
-      "video": "01-landing/walkthrough.fast.ar.mp4",
-      "guide": "01-landing/WALKTHROUGH.ar.md",
+      "limits": "المثال يستخدم جهات تجريبية. المقطع لا يثبت وجود واجهة لإسناد الصلاحيات.",
+      "video": "07-entities/walkthrough.fast.ar.mp4",
+      "guide": "07-entities/WALKTHROUGH.ar.md",
       "status": "recorded",
       "captureDate": "2026-09-22/2026-09-23",
       "currentBuildVerified": false,
       "videos": [
         {
-          "id": "01-landing",
-          "label": "الصفحة التعريفية",
-          "path": "01-landing/walkthrough.fast.ar.mp4",
-          "original": "01-landing/walkthrough.ar.mp4",
-          "durationSeconds": 24.266016,
+          "id": "07-entities",
+          "label": "سجل مساحات العمل",
+          "path": "07-entities/walkthrough.fast.ar.mp4",
+          "original": "07-entities/walkthrough.ar.mp4",
+          "durationSeconds": 96.133333,
           "speed": 1.5,
           "audio": false,
           "fullDecodePassed": true
         }
       ],
-      "page": "01-landing/lesson.html",
+      "page": "07-entities/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "02-login",
-      "title": "تسجيل الدخول",
-      "route": "/login",
-      "source": "auth/login",
-      "purpose": "بدء جلسة العرض واختيار شخصية المستخدم.",
-      "steps": [
-        "افتح تسجيل الدخول",
-        "استخدم اسم شخصية تجريبية معروفة",
-        "اضغط الدخول ثم تحقق من اسم المستخدم ونطاقه"
-      ],
-      "rules": [
-        "الدخول في هذا النموذج تجريبي ولا يتحقق من كلمة المرور.",
-        "اختيار الشخصية يحدد نطاق مساحات العمل المعروض."
-      ],
-      "limits": "لا يمثل هذا العرض مصادقة إنتاجية أو إثباتاً لأمان الدخول.",
-      "video": "02-login/walkthrough.fast.ar.mp4",
-      "guide": "02-login/WALKTHROUGH.ar.md",
-      "status": "recorded-with-limitations",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "02-login",
-          "label": "تسجيل الدخول",
-          "path": "02-login/walkthrough.fast.ar.mp4",
-          "original": "02-login/walkthrough.ar.mp4",
-          "durationSeconds": 28.533008,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "02-login/lesson.html",
-      "recordingLimitations": "الدخول تجريبي؛ لا يتحقق من كلمة المرور.",
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "03-portfolio",
-      "title": "محفظة الوزارة",
-      "route": "/portfolio",
-      "source": "portfolio/portfolio",
-      "purpose": "قراءة الموقف الإجمالي ومتابعة المشاريع التي تحتاج اهتماماً.",
-      "steps": [
-        "افتح الرئيسية بدور الإدارة العليا",
-        "راجع تاريخ البيانات والقيم الإجمالية",
-        "اختر مشروعاً من قائمة المتابعة لقراءة مصدر المؤشر"
-      ],
-      "rules": [
-        "قيمة المشروع مشتقة من عقوده.",
-        "مؤشر الوزارة يجمع مشاريع متعددة؛ لا يلزم أن يساوي نسبة مشروع منفرد."
-      ],
-      "limits": "تختلف أرقام المثال عن البيانات الحالية.",
-      "video": "03-portfolio/walkthrough.fast.ar.mp4",
-      "guide": "03-portfolio/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "03-portfolio",
-          "label": "محفظة الوزارة",
-          "path": "03-portfolio/walkthrough.fast.ar.mp4",
-          "original": "03-portfolio/walkthrough.ar.mp4",
-          "durationSeconds": 54,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "03-portfolio/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "04-projects",
-      "title": "سجل المشاريع",
-      "route": "/projects",
-      "source": "projects/projects",
-      "purpose": "العثور على مشروع داخل نطاق الجهة وفتح ملفه.",
-      "steps": [
-        "افتح كل المشاريع",
-        "ابحث عن اسم المشروع وحدد المرشحات",
-        "افتح المشروع وتحقق من الجهة والهوية"
-      ],
-      "rules": [
-        "السجل مقيد بمساحات العمل المتاحة للمستخدم.",
-        "الكلفة المعروضة مشتقة من العقود وليست بالضرورة الكلفة المقررة في تعريف المشروع."
-      ],
-      "limits": "المقطع المتاح قصير ويثبت الوصول إلى السجل؛ لا يغطي كل المرشحات.",
-      "video": "04-projects/walkthrough.fast.ar.mp4",
-      "guide": "04-projects/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "04-projects",
-          "label": "سجل المشاريع",
-          "path": "04-projects/walkthrough.fast.ar.mp4",
-          "original": "04-projects/walkthrough.ar.mp4",
-          "durationSeconds": 36,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "04-projects/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 1
     },
     {
       "id": "05-project-create",
@@ -196,353 +89,8 @@
       ],
       "page": "05-project-create/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "06-contracts",
-      "title": "سجل العقود العام",
-      "route": "/contracts",
-      "source": "contracts/contracts",
-      "purpose": "مراجعة عقود المشاريع من سجل موحد.",
-      "steps": [
-        "افتح كل العقود",
-        "حدد نطاق الجهة وابحث عن العقد",
-        "افتح بطاقة العقد داخل مشروعه"
-      ],
-      "rules": [
-        "كل عقد يتبع مشروعاً واحداً.",
-        "القيمة الأصلية والقيمة النافذة مفهومان مختلفان عند وجود ملاحق مطبقة."
-      ],
-      "limits": "لا توجد لقطة مستقلة مؤكدة لهذا السجل في المقاطع المختارة.",
-      "video": "06-contracts/walkthrough.fast.ar.mp4",
-      "guide": "06-contracts/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "06-contracts",
-          "label": "سجل العقود العام",
-          "path": "06-contracts/walkthrough.fast.ar.mp4",
-          "original": "06-contracts/walkthrough.ar.mp4",
-          "durationSeconds": 24.933333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "06-contracts/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "07-entities",
-      "title": "سجل مساحات العمل",
-      "route": "/entities",
-      "source": "entities/entities",
-      "purpose": "تعريف الجهات التي تنظم المشاريع وتحدد نطاق الوصول.",
-      "steps": [
-        "افتح مساحات العمل بدور مدير عام",
-        "أضف رمز الجهة واسمها ونوعها",
-        "احفظ وتحقق من ظهور السجل",
-        "افتح الجهة للوصول إلى نظرتها العامة"
-      ],
-      "rules": [
-        "الرمز المكرر مرفوض.",
-        "إنشاء مساحة العمل ليس متاحاً لكل الأدوار.",
-        "المستخدم المختص يرى الجهات المسندة إليه."
-      ],
-      "limits": "المثال يستخدم جهات تجريبية. المقطع لا يثبت وجود واجهة لإسناد الصلاحيات.",
-      "video": "07-entities/walkthrough.fast.ar.mp4",
-      "guide": "07-entities/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "07-entities",
-          "label": "سجل مساحات العمل",
-          "path": "07-entities/walkthrough.fast.ar.mp4",
-          "original": "07-entities/walkthrough.ar.mp4",
-          "durationSeconds": 96.133333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "07-entities/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "08-workspace",
-      "title": "نظرة عامة لمساحة العمل",
-      "route": "/workspace?ws={workspaceCode}",
-      "source": "workspaces/workspaces",
-      "purpose": "متابعة مشاريع جهة واحدة ومؤشراتها.",
-      "steps": [
-        "اختر جهة من سجل مساحات العمل",
-        "راجع اسم الجهة وتاريخ البيانات",
-        "افتح أحد مشاريعها لمقارنة المؤشرات"
-      ],
-      "rules": [
-        "يلزم تحديد مساحة عمل؛ دونها يعود المستخدم إلى السجل.",
-        "تجميع الجهة يقتصر على مشاريعها."
-      ],
-      "limits": "لا تقارن إجمالي الجهة بإجمالي الوزارة على أنهما النطاق نفسه.",
-      "video": "08-workspace/walkthrough.fast.ar.mp4",
-      "guide": "08-workspace/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "08-workspace",
-          "label": "نظرة عامة لمساحة العمل",
-          "path": "08-workspace/walkthrough.fast.ar.mp4",
-          "original": "08-workspace/walkthrough.ar.mp4",
-          "durationSeconds": 36.2,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "08-workspace/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "09-schedule-control",
-      "title": "الرقابة الزمنية العامة",
-      "route": "/schedule-control",
-      "source": "schedule-control/schedule-control",
-      "purpose": "متابعة الموقف الزمني للمشاريع والوصول إلى الأنشطة المتأخرة.",
-      "steps": [
-        "افتح الرقابة الزمنية",
-        "راجع نطاق المشاريع وتواريخ البيانات",
-        "افتح المشروع المعني للتحقق من الجدول"
-      ],
-      "rules": [
-        "القراءة الزمنية مرتبطة بتاريخ بيانات المشروع.",
-        "التفاصيل التعاقدية تؤخذ من جدول العقد المختار."
-      ],
-      "limits": "لا يُستدل على حساب المسار الحرج من مجرد وجود مخطط زمني.",
-      "video": "09-schedule-control-resume/walkthrough.fast.ar.mp4",
-      "guide": "09-schedule-control/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "09-schedule-control-resume",
-          "label": "الرقابة الزمنية العامة",
-          "path": "09-schedule-control-resume/walkthrough.fast.ar.mp4",
-          "original": "09-schedule-control-resume/walkthrough.ar.mp4",
-          "durationSeconds": 41.733333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "09-schedule-control/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "10-alerts",
-      "title": "مركز التنبيهات",
-      "route": "/alerts",
-      "source": "alerts/alerts",
-      "purpose": "مراجعة التنبيهات عبر المشاريع المتاحة للمستخدم.",
-      "steps": [
-        "افتح مركز التنبيهات",
-        "رشح حسب الحالة واقرأ سبب التنبيه",
-        "انتقل إلى المشروع المعني أو راجع سجل الإقرار"
-      ],
-      "rules": [
-        "نطاق التنبيهات يتبع نطاق صلاحية المستخدم.",
-        "الإقرار لا يصحح السبب ولا يعتمد المعاملة الأصلية."
-      ],
-      "limits": "البريد والرسائل والتصعيد الآلي غير مثبتة كتدفقات منفذة في التسجيل.",
-      "video": "10-alerts/walkthrough.fast.ar.mp4",
-      "guide": "10-alerts/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "10-alerts",
-          "label": "مركز التنبيهات",
-          "path": "10-alerts/walkthrough.fast.ar.mp4",
-          "original": "10-alerts/walkthrough.ar.mp4",
-          "durationSeconds": 51.4,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "10-alerts/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "11-reports",
-      "title": "مكتبة التقارير",
-      "route": "/reports",
-      "source": "reports/reports",
-      "purpose": "التعرف على تعريفات التقارير وتصنيفاتها.",
-      "steps": [
-        "افتح مكتبة التقارير",
-        "راجع نوع التقرير ونطاقه وصيغته",
-        "غيّر مرشح المشروع أو التصنيف"
-      ],
-      "rules": [
-        "هذه الشاشة فهرس لتعريفات التقارير.",
-        "وجود صيغة أو وصف جدولة لا يعني أن التشغيل والتصدير منفذان."
-      ],
-      "limits": "التسجيل يعرض الفهرس فقط؛ لا يوجد إثبات لتشغيل أو تصدير أو جدولة.",
-      "video": "11-reports/walkthrough.fast.ar.mp4",
-      "guide": "11-reports/WALKTHROUGH.ar.md",
-      "status": "recorded-with-limitations",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "11-reports",
-          "label": "مكتبة التقارير",
-          "path": "11-reports/walkthrough.fast.ar.mp4",
-          "original": "11-reports/walkthrough.ar.mp4",
-          "durationSeconds": 31.333333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "11-reports/lesson.html",
-      "recordingLimitations": "عرض التعريفات والجاهزية فقط؛ التشغيل والجدولة غير مثبتين.",
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "12-rules",
-      "title": "مرجع قواعد النظام",
-      "route": "/docs",
-      "source": "docs/docs",
-      "purpose": "فهم القواعد الحسابية وأمثلتها.",
-      "steps": [
-        "افتح مرجع القواعد",
-        "اختر قاعدة واقرأ المدخلات والمخرجات",
-        "قارن المثال بالقيمة المقابلة في شاشة المشروع"
-      ],
-      "rules": [
-        "الأمثلة تستخدم قواعد الحساب نفسها التي يستعملها الخادم.",
-        "لا تحتاج الصفحة إلى وجود سجلات مشاريع لإظهار أمثلة القواعد."
-      ],
-      "limits": "الأمثلة توضيحية وليست بيانات مشروع فعلي.",
-      "video": "12-rules/walkthrough.fast.ar.mp4",
-      "guide": "12-rules/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "12-rules",
-          "label": "مرجع قواعد النظام",
-          "path": "12-rules/walkthrough.fast.ar.mp4",
-          "original": "12-rules/walkthrough.ar.mp4",
-          "durationSeconds": 24.266667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "12-rules/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "13-project-workspace",
-      "title": "التنقل داخل مساحة المشروع",
-      "route": "/projects/{id}",
-      "source": "workspace/workspace",
-      "purpose": "الوصول إلى وحدات المشروع مع الحفاظ على سياق واحد.",
-      "steps": [
-        "افتح مشروعاً من السجل",
-        "تحقق من اسم المشروع ورمزه",
-        "تنقل بين المعلومات والعقود والإنجاز",
-        "اختر عقداً عندما تطلب الوحدة ذلك"
-      ],
-      "rules": [
-        "الدخول الافتراضي يفتح النظرة العامة.",
-        "الوحدات التعاقدية تحتاج عقداً؛ الإنجاز يعرض تجميع المشروع."
-      ],
-      "limits": "المساحة حاوية تنقل وليست عملية اعتماد مستقلة.",
-      "video": "13-project-workspace/walkthrough.fast.ar.mp4",
-      "guide": "13-project-workspace/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "13-project-workspace",
-          "label": "التنقل داخل مساحة المشروع",
-          "path": "13-project-workspace/walkthrough.fast.ar.mp4",
-          "original": "13-project-workspace/walkthrough.ar.mp4",
-          "durationSeconds": 28.466667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "13-project-workspace/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
-    },
-    {
-      "id": "14-overview",
-      "title": "نظرة عامة للمشروع",
-      "route": "/projects/{id}/overview",
-      "source": "overview/overview",
-      "purpose": "قراءة ملخص حالة المشروع ومؤشراته وجاهزية وحداته.",
-      "steps": [
-        "افتح نظرة عامة",
-        "راجع اسم المشروع وتاريخ البيانات",
-        "اقرأ القيمة والإنجاز ثم افتح الوحدة المرتبطة"
-      ],
-      "rules": [
-        "المؤشرات مشتقة من سجلات المشروع والعقود.",
-        "القيمة غير المتاحة لا تعني بالضرورة صفراً حقيقياً."
-      ],
-      "limits": "لا توجد لقطة مستقلة مؤكدة للنظرة العامة ضمن المقاطع المختارة.",
-      "video": "14-overview-r5/walkthrough.fast.ar.mp4",
-      "guide": "14-overview/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-23",
-      "currentBuildVerified": true,
-      "videos": [
-        {
-          "id": "14-overview-r5",
-          "label": "حالات الوحدات ومؤشرات المتابعة",
-          "path": "14-overview-r5/walkthrough.fast.ar.mp4",
-          "original": "14-overview-r5/walkthrough.ar.mp4",
-          "durationSeconds": 47.866667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        },
-        {
-          "id": "14-overview",
-          "label": "شرح سابق — نظرة عامة للمشروع",
-          "path": "14-overview/walkthrough.fast.ar.mp4",
-          "original": "14-overview/walkthrough.ar.mp4",
-          "durationSeconds": 33.266667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "14-overview/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 2
     },
     {
       "id": "15-information",
@@ -580,7 +128,47 @@
       ],
       "page": "15-information/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 3
+    },
+    {
+      "id": "13-project-workspace",
+      "title": "التنقل داخل مساحة المشروع",
+      "route": "/projects/{id}",
+      "source": "workspace/workspace",
+      "purpose": "الوصول إلى وحدات المشروع مع الحفاظ على سياق واحد.",
+      "steps": [
+        "افتح مشروعاً من السجل",
+        "تحقق من اسم المشروع ورمزه",
+        "تنقل بين المعلومات والعقود والإنجاز",
+        "اختر عقداً عندما تطلب الوحدة ذلك"
+      ],
+      "rules": [
+        "الدخول الافتراضي يفتح النظرة العامة.",
+        "الوحدات التعاقدية تحتاج عقداً؛ الإنجاز يعرض تجميع المشروع."
+      ],
+      "limits": "المساحة حاوية تنقل وليست عملية اعتماد مستقلة.",
+      "video": "13-project-workspace/walkthrough.fast.ar.mp4",
+      "guide": "13-project-workspace/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "13-project-workspace",
+          "label": "التنقل داخل مساحة المشروع",
+          "path": "13-project-workspace/walkthrough.fast.ar.mp4",
+          "original": "13-project-workspace/walkthrough.ar.mp4",
+          "durationSeconds": 28.466667,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "13-project-workspace/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 4
     },
     {
       "id": "16-contract-create",
@@ -630,7 +218,8 @@
       ],
       "page": "16-contract-create/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 5
     },
     {
       "id": "17-contract-edit",
@@ -667,7 +256,8 @@
       ],
       "page": "17-contract-edit/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 6
     },
     {
       "id": "18-contract-detail",
@@ -704,7 +294,8 @@
       ],
       "page": "18-contract-detail/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 7
     },
     {
       "id": "19-boq",
@@ -743,7 +334,8 @@
       ],
       "page": "19-boq/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 8
     },
     {
       "id": "20-boq-import",
@@ -781,7 +373,8 @@
       ],
       "page": "20-boq-import/lesson.html",
       "recordingLimitations": "تم التقديم؛ رفض الاعتماد لحماية بند مرتبط بأمر تغييري مطبق.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 9
     },
     {
       "id": "21-supply",
@@ -819,7 +412,8 @@
       ],
       "page": "21-supply/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 10
     },
     {
       "id": "22-distribution",
@@ -858,7 +452,8 @@
       ],
       "page": "22-distribution/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 11
     },
     {
       "id": "23-receipts",
@@ -899,7 +494,8 @@
       ],
       "page": "23-receipts/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 12
     },
     {
       "id": "24-schedule",
@@ -938,7 +534,8 @@
       ],
       "page": "24-schedule/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 13
     },
     {
       "id": "25-schedule-import",
@@ -977,7 +574,8 @@
       ],
       "page": "25-schedule-import/lesson.html",
       "recordingLimitations": "نوع التحديث يصف الإصدار؛ لا يفصل هذا البناء خط أساس ثابتاً عن برنامج حالي مستقل. المثال مقدم بانتظار الاعتماد.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 14
     },
     {
       "id": "26-linking",
@@ -1016,7 +614,8 @@
       ],
       "page": "26-linking/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 15
     },
     {
       "id": "27-progress",
@@ -1055,7 +654,8 @@
       ],
       "page": "27-progress/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 16
     },
     {
       "id": "28-progress-update",
@@ -1095,7 +695,8 @@
       ],
       "page": "28-progress-update/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 17
     },
     {
       "id": "29-period",
@@ -1134,7 +735,8 @@
       ],
       "page": "29-period/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 18
     },
     {
       "id": "30-financial",
@@ -1172,7 +774,8 @@
       ],
       "page": "30-financial/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 19
     },
     {
       "id": "31-payment",
@@ -1212,7 +815,8 @@
       ],
       "page": "31-payment/lesson.html",
       "recordingLimitations": "أسماء المرفقات وأحجامها محفوظة دون محتواها في هذه النسخة التجريبية. ينتهي المثال قيد التدقيق، دون صرف أو تحويل أموال.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 20
     },
     {
       "id": "32-change-register",
@@ -1250,7 +854,8 @@
       ],
       "page": "32-change-register/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 21
     },
     {
       "id": "33-change-create",
@@ -1310,7 +915,8 @@
       ],
       "page": "33-change-create/lesson.html",
       "recordingLimitations": "المقطعان المحدّثان يشرحان المقترحات في الإنشاء والتجهيز دون حفظ أو إرسال. المعاينة تستخدم كمية البند الأصلية؛ يجب مراعاة الأوامر السابقة قبل اعتماد أي تغيير. المقطع السابق يعرض مرحلة الإرسال للمراجعة فقط.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 22
     },
     {
       "id": "34-change-detail",
@@ -1351,7 +957,8 @@
       ],
       "page": "34-change-detail/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 23
     },
     {
       "id": "35-risks",
@@ -1389,7 +996,8 @@
       ],
       "page": "35-risks/lesson.html",
       "recordingLimitations": "عرض السجل الفارغ وقواعده؛ لا يتاح إنشاء خطر من الشاشة الحالية.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 24
     },
     {
       "id": "36-meetings",
@@ -1428,7 +1036,8 @@
       ],
       "page": "36-meetings/lesson.html",
       "recordingLimitations": "زر الإنشاء غير منفذ؛ المقطع يشرح السجل وحدوده.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 25
     },
     {
       "id": "37-documents",
@@ -1469,7 +1078,8 @@
       ],
       "page": "37-documents/lesson.html",
       "recordingLimitations": "المكتبة تجمع بيانات المرفقات من وحدات المشروع. محتوى الملفات غير محفوظ في هذه النسخة؛ لا تتوفر معاينة أو تنزيل. تبويب الوثائق وإصداراتها مستقل عن مرفقات الوحدات الأخرى.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 26
     },
     {
       "id": "38-model",
@@ -1509,7 +1119,8 @@
       ],
       "page": "38-model/lesson.html",
       "recordingLimitations": "اتصال Forge فعلي مع استعراض المبنى والخصائص والمقطع. روابط عناصر EPM بالكميات والأنشطة غير معدة لهذا المثال.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 27
     },
     {
       "id": "39-project-alerts",
@@ -1549,7 +1160,8 @@
       ],
       "page": "39-project-alerts/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 28
     },
     {
       "id": "40-project-reports",
@@ -1586,7 +1198,8 @@
       ],
       "page": "40-project-reports/lesson.html",
       "recordingLimitations": "معاينة وشرح فقط؛ التشغيل والتصدير غير منفذين.",
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 29
     },
     {
       "id": "41-audit",
@@ -1626,14 +1239,410 @@
       ],
       "page": "41-audit/lesson.html",
       "recordingLimitations": null,
-      "visualReview": "sampled-frames"
+      "visualReview": "sampled-frames",
+      "sequence": 30
+    },
+    {
+      "id": "14-overview",
+      "title": "نظرة عامة للمشروع",
+      "route": "/projects/{id}/overview",
+      "source": "overview/overview",
+      "purpose": "قراءة ملخص حالة المشروع ومؤشراته وجاهزية وحداته.",
+      "steps": [
+        "افتح نظرة عامة",
+        "راجع اسم المشروع وتاريخ البيانات",
+        "اقرأ القيمة والإنجاز ثم افتح الوحدة المرتبطة"
+      ],
+      "rules": [
+        "المؤشرات مشتقة من سجلات المشروع والعقود.",
+        "القيمة غير المتاحة لا تعني بالضرورة صفراً حقيقياً."
+      ],
+      "limits": "لا توجد لقطة مستقلة مؤكدة للنظرة العامة ضمن المقاطع المختارة.",
+      "video": "14-overview-r5/walkthrough.fast.ar.mp4",
+      "guide": "14-overview/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-23",
+      "currentBuildVerified": true,
+      "videos": [
+        {
+          "id": "14-overview-r5",
+          "label": "حالات الوحدات ومؤشرات المتابعة",
+          "path": "14-overview-r5/walkthrough.fast.ar.mp4",
+          "original": "14-overview-r5/walkthrough.ar.mp4",
+          "durationSeconds": 47.866667,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        },
+        {
+          "id": "14-overview",
+          "label": "شرح سابق — نظرة عامة للمشروع",
+          "path": "14-overview/walkthrough.fast.ar.mp4",
+          "original": "14-overview/walkthrough.ar.mp4",
+          "durationSeconds": 33.266667,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "14-overview/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 31
+    },
+    {
+      "id": "08-workspace",
+      "title": "نظرة عامة لمساحة العمل",
+      "route": "/workspace?ws={workspaceCode}",
+      "source": "workspaces/workspaces",
+      "purpose": "متابعة مشاريع جهة واحدة ومؤشراتها.",
+      "steps": [
+        "اختر جهة من سجل مساحات العمل",
+        "راجع اسم الجهة وتاريخ البيانات",
+        "افتح أحد مشاريعها لمقارنة المؤشرات"
+      ],
+      "rules": [
+        "يلزم تحديد مساحة عمل؛ دونها يعود المستخدم إلى السجل.",
+        "تجميع الجهة يقتصر على مشاريعها."
+      ],
+      "limits": "لا تقارن إجمالي الجهة بإجمالي الوزارة على أنهما النطاق نفسه.",
+      "video": "08-workspace/walkthrough.fast.ar.mp4",
+      "guide": "08-workspace/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "08-workspace",
+          "label": "نظرة عامة لمساحة العمل",
+          "path": "08-workspace/walkthrough.fast.ar.mp4",
+          "original": "08-workspace/walkthrough.ar.mp4",
+          "durationSeconds": 36.2,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "08-workspace/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 32
+    },
+    {
+      "id": "04-projects",
+      "title": "سجل المشاريع",
+      "route": "/projects",
+      "source": "projects/projects",
+      "purpose": "العثور على مشروع داخل نطاق الجهة وفتح ملفه.",
+      "steps": [
+        "افتح كل المشاريع",
+        "ابحث عن اسم المشروع وحدد المرشحات",
+        "افتح المشروع وتحقق من الجهة والهوية"
+      ],
+      "rules": [
+        "السجل مقيد بمساحات العمل المتاحة للمستخدم.",
+        "الكلفة المعروضة مشتقة من العقود وليست بالضرورة الكلفة المقررة في تعريف المشروع."
+      ],
+      "limits": "المقطع المتاح قصير ويثبت الوصول إلى السجل؛ لا يغطي كل المرشحات.",
+      "video": "04-projects/walkthrough.fast.ar.mp4",
+      "guide": "04-projects/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "04-projects",
+          "label": "سجل المشاريع",
+          "path": "04-projects/walkthrough.fast.ar.mp4",
+          "original": "04-projects/walkthrough.ar.mp4",
+          "durationSeconds": 36,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "04-projects/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 33
+    },
+    {
+      "id": "06-contracts",
+      "title": "سجل العقود العام",
+      "route": "/contracts",
+      "source": "contracts/contracts",
+      "purpose": "مراجعة عقود المشاريع من سجل موحد.",
+      "steps": [
+        "افتح كل العقود",
+        "حدد نطاق الجهة وابحث عن العقد",
+        "افتح بطاقة العقد داخل مشروعه"
+      ],
+      "rules": [
+        "كل عقد يتبع مشروعاً واحداً.",
+        "القيمة الأصلية والقيمة النافذة مفهومان مختلفان عند وجود ملاحق مطبقة."
+      ],
+      "limits": "لا توجد لقطة مستقلة مؤكدة لهذا السجل في المقاطع المختارة.",
+      "video": "06-contracts/walkthrough.fast.ar.mp4",
+      "guide": "06-contracts/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "06-contracts",
+          "label": "سجل العقود العام",
+          "path": "06-contracts/walkthrough.fast.ar.mp4",
+          "original": "06-contracts/walkthrough.ar.mp4",
+          "durationSeconds": 24.933333,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "06-contracts/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 34
+    },
+    {
+      "id": "09-schedule-control",
+      "title": "الرقابة الزمنية العامة",
+      "route": "/schedule-control",
+      "source": "schedule-control/schedule-control",
+      "purpose": "متابعة الموقف الزمني للمشاريع والوصول إلى الأنشطة المتأخرة.",
+      "steps": [
+        "افتح الرقابة الزمنية",
+        "راجع نطاق المشاريع وتواريخ البيانات",
+        "افتح المشروع المعني للتحقق من الجدول"
+      ],
+      "rules": [
+        "القراءة الزمنية مرتبطة بتاريخ بيانات المشروع.",
+        "التفاصيل التعاقدية تؤخذ من جدول العقد المختار."
+      ],
+      "limits": "لا يُستدل على حساب المسار الحرج من مجرد وجود مخطط زمني.",
+      "video": "09-schedule-control-resume/walkthrough.fast.ar.mp4",
+      "guide": "09-schedule-control/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "09-schedule-control-resume",
+          "label": "الرقابة الزمنية العامة",
+          "path": "09-schedule-control-resume/walkthrough.fast.ar.mp4",
+          "original": "09-schedule-control-resume/walkthrough.ar.mp4",
+          "durationSeconds": 41.733333,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "09-schedule-control/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 35
+    },
+    {
+      "id": "10-alerts",
+      "title": "مركز التنبيهات",
+      "route": "/alerts",
+      "source": "alerts/alerts",
+      "purpose": "مراجعة التنبيهات عبر المشاريع المتاحة للمستخدم.",
+      "steps": [
+        "افتح مركز التنبيهات",
+        "رشح حسب الحالة واقرأ سبب التنبيه",
+        "انتقل إلى المشروع المعني أو راجع سجل الإقرار"
+      ],
+      "rules": [
+        "نطاق التنبيهات يتبع نطاق صلاحية المستخدم.",
+        "الإقرار لا يصحح السبب ولا يعتمد المعاملة الأصلية."
+      ],
+      "limits": "البريد والرسائل والتصعيد الآلي غير مثبتة كتدفقات منفذة في التسجيل.",
+      "video": "10-alerts/walkthrough.fast.ar.mp4",
+      "guide": "10-alerts/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "10-alerts",
+          "label": "مركز التنبيهات",
+          "path": "10-alerts/walkthrough.fast.ar.mp4",
+          "original": "10-alerts/walkthrough.ar.mp4",
+          "durationSeconds": 51.4,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "10-alerts/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 36
+    },
+    {
+      "id": "11-reports",
+      "title": "مكتبة التقارير",
+      "route": "/reports",
+      "source": "reports/reports",
+      "purpose": "التعرف على تعريفات التقارير وتصنيفاتها.",
+      "steps": [
+        "افتح مكتبة التقارير",
+        "راجع نوع التقرير ونطاقه وصيغته",
+        "غيّر مرشح المشروع أو التصنيف"
+      ],
+      "rules": [
+        "هذه الشاشة فهرس لتعريفات التقارير.",
+        "وجود صيغة أو وصف جدولة لا يعني أن التشغيل والتصدير منفذان."
+      ],
+      "limits": "التسجيل يعرض الفهرس فقط؛ لا يوجد إثبات لتشغيل أو تصدير أو جدولة.",
+      "video": "11-reports/walkthrough.fast.ar.mp4",
+      "guide": "11-reports/WALKTHROUGH.ar.md",
+      "status": "recorded-with-limitations",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "11-reports",
+          "label": "مكتبة التقارير",
+          "path": "11-reports/walkthrough.fast.ar.mp4",
+          "original": "11-reports/walkthrough.ar.mp4",
+          "durationSeconds": 31.333333,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "11-reports/lesson.html",
+      "recordingLimitations": "عرض التعريفات والجاهزية فقط؛ التشغيل والجدولة غير مثبتين.",
+      "visualReview": "sampled-frames",
+      "sequence": 37
+    },
+    {
+      "id": "03-portfolio",
+      "title": "محفظة الوزارة",
+      "route": "/portfolio",
+      "source": "portfolio/portfolio",
+      "purpose": "قراءة الموقف الإجمالي ومتابعة المشاريع التي تحتاج اهتماماً.",
+      "steps": [
+        "افتح الرئيسية بدور الإدارة العليا",
+        "راجع تاريخ البيانات والقيم الإجمالية",
+        "اختر مشروعاً من قائمة المتابعة لقراءة مصدر المؤشر"
+      ],
+      "rules": [
+        "قيمة المشروع مشتقة من عقوده.",
+        "مؤشر الوزارة يجمع مشاريع متعددة؛ لا يلزم أن يساوي نسبة مشروع منفرد."
+      ],
+      "limits": "تختلف أرقام المثال عن البيانات الحالية.",
+      "video": "03-portfolio/walkthrough.fast.ar.mp4",
+      "guide": "03-portfolio/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "03-portfolio",
+          "label": "محفظة الوزارة",
+          "path": "03-portfolio/walkthrough.fast.ar.mp4",
+          "original": "03-portfolio/walkthrough.ar.mp4",
+          "durationSeconds": 54,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "03-portfolio/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 38
+    },
+    {
+      "id": "01-landing",
+      "title": "الصفحة التعريفية",
+      "route": "/",
+      "source": "auth/landing",
+      "purpose": "التعرف على النظام والوصول إلى تسجيل الدخول.",
+      "steps": [
+        "افتح الصفحة دون جلسة مسجلة",
+        "اقرأ تعريف المنصة",
+        "اختر تسجيل الدخول"
+      ],
+      "rules": [
+        "المستخدم الذي لديه جلسة ينتقل من الصفحة الرئيسية إلى المحفظة."
+      ],
+      "limits": "هذه صفحة تعريفية وليست لوحة مؤشرات.",
+      "video": "01-landing/walkthrough.fast.ar.mp4",
+      "guide": "01-landing/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "01-landing",
+          "label": "الصفحة التعريفية",
+          "path": "01-landing/walkthrough.fast.ar.mp4",
+          "original": "01-landing/walkthrough.ar.mp4",
+          "durationSeconds": 24.266016,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "01-landing/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 39
+    },
+    {
+      "id": "02-login",
+      "title": "تسجيل الدخول",
+      "route": "/login",
+      "source": "auth/login",
+      "purpose": "بدء جلسة العرض واختيار شخصية المستخدم.",
+      "steps": [
+        "افتح تسجيل الدخول",
+        "استخدم اسم شخصية تجريبية معروفة",
+        "اضغط الدخول ثم تحقق من اسم المستخدم ونطاقه"
+      ],
+      "rules": [
+        "الدخول في هذا النموذج تجريبي ولا يتحقق من كلمة المرور.",
+        "اختيار الشخصية يحدد نطاق مساحات العمل المعروض."
+      ],
+      "limits": "لا يمثل هذا العرض مصادقة إنتاجية أو إثباتاً لأمان الدخول.",
+      "video": "02-login/walkthrough.fast.ar.mp4",
+      "guide": "02-login/WALKTHROUGH.ar.md",
+      "status": "recorded-with-limitations",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "02-login",
+          "label": "تسجيل الدخول",
+          "path": "02-login/walkthrough.fast.ar.mp4",
+          "original": "02-login/walkthrough.ar.mp4",
+          "durationSeconds": 28.533008,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "02-login/lesson.html",
+      "recordingLimitations": "الدخول تجريبي؛ لا يتحقق من كلمة المرور.",
+      "visualReview": "sampled-frames",
+      "sequence": 40
     }
   ],
-  "videoCount": 46,
-  "totalFastDurationSeconds": 3898.231705,
+  "videoCount": 45,
+  "totalFastDurationSeconds": 3873.9650380000003,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
   "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل درس. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
   "latestUpdates": "updates-20260923/index.html",
-  "narration": "updates-20260923/NARRATION.ar.html"
+  "narration": "updates-20260923/NARRATION.ar.html",
+  "excludedModules": [
+    {
+      "id": "12-rules",
+      "reason": "Standalone rules-reference module is absent from the published reference prototype."
+    }
+  ]
 }
