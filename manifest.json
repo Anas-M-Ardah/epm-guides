@@ -96,84 +96,6 @@
       "sequence": 2
     },
     {
-      "id": "15-information",
-      "title": "معلومات المشروع",
-      "route": "/projects/{id}/information",
-      "source": "information/information",
-      "purpose": "مراجعة هوية المشروع والتمويل والجهات المسؤولة.",
-      "steps": [
-        "افتح معلومات المشروع",
-        "راجع أقسام الهوية والتنظيم والتمويل",
-        "استخدم تعديل عند توفر الصلاحية ثم احفظ",
-        "راجع سجل النشاط"
-      ],
-      "rules": [
-        "التحرير داخل البطاقة نفسها.",
-        "الكلفة المقررة تختلف عن القيمة المشتقة من العقود."
-      ],
-      "limits": "المقطع يعرض بطاقة محفوظة؛ لا يوثق تعديل الحقول الحالية.",
-      "video": "15-information/walkthrough.fast.ar.mp4",
-      "guide": "15-information/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "15-information",
-          "label": "معلومات المشروع",
-          "path": "15-information/walkthrough.fast.ar.mp4",
-          "original": "15-information/walkthrough.ar.mp4",
-          "durationSeconds": 25.066667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "15-information/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames",
-      "sequence": 3
-    },
-    {
-      "id": "13-project-workspace",
-      "title": "التنقل داخل مساحة المشروع",
-      "route": "/projects/{id}",
-      "source": "workspace/workspace",
-      "purpose": "الوصول إلى وحدات المشروع مع الحفاظ على سياق واحد.",
-      "steps": [
-        "افتح مشروعاً من السجل",
-        "تحقق من اسم المشروع ورمزه",
-        "تنقل بين المعلومات والعقود والإنجاز",
-        "اختر عقداً عندما تطلب الوحدة ذلك"
-      ],
-      "rules": [
-        "الدخول الافتراضي يفتح النظرة العامة.",
-        "الوحدات التعاقدية تحتاج عقداً؛ الإنجاز يعرض تجميع المشروع."
-      ],
-      "limits": "المساحة حاوية تنقل وليست عملية اعتماد مستقلة.",
-      "video": "13-project-workspace/walkthrough.fast.ar.mp4",
-      "guide": "13-project-workspace/WALKTHROUGH.ar.md",
-      "status": "recorded",
-      "captureDate": "2026-09-22/2026-09-23",
-      "currentBuildVerified": false,
-      "videos": [
-        {
-          "id": "13-project-workspace",
-          "label": "التنقل داخل مساحة المشروع",
-          "path": "13-project-workspace/walkthrough.fast.ar.mp4",
-          "original": "13-project-workspace/walkthrough.ar.mp4",
-          "durationSeconds": 28.466667,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
-        }
-      ],
-      "page": "13-project-workspace/lesson.html",
-      "recordingLimitations": null,
-      "visualReview": "sampled-frames",
-      "sequence": 4
-    },
-    {
       "id": "16-contract-create",
       "title": "إنشاء عقد",
       "route": "/projects/{id}/contract/new",
@@ -222,7 +144,7 @@
       "page": "16-contract-create/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 5
+      "sequence": 3
     },
     {
       "id": "17-contract-edit",
@@ -260,7 +182,7 @@
       "page": "17-contract-edit/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 6
+      "sequence": 4
     },
     {
       "id": "18-contract-detail",
@@ -298,7 +220,7 @@
       "page": "18-contract-detail/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 7
+      "sequence": 5
     },
     {
       "id": "19-boq",
@@ -338,7 +260,7 @@
       "page": "19-boq/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 8
+      "sequence": 6
     },
     {
       "id": "20-boq-import",
@@ -377,7 +299,7 @@
       "page": "20-boq-import/lesson.html",
       "recordingLimitations": "تم التقديم؛ رفض الاعتماد لحماية بند مرتبط بأمر تغييري مطبق.",
       "visualReview": "sampled-frames",
-      "sequence": 9
+      "sequence": 7
     },
     {
       "id": "21-supply",
@@ -416,7 +338,7 @@
       "page": "21-supply/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 10
+      "sequence": 8
     },
     {
       "id": "22-distribution",
@@ -456,7 +378,7 @@
       "page": "22-distribution/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 11
+      "sequence": 9
     },
     {
       "id": "23-receipts",
@@ -498,7 +420,7 @@
       "page": "23-receipts/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 12
+      "sequence": 10
     },
     {
       "id": "24-schedule",
@@ -538,7 +460,7 @@
       "page": "24-schedule/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 13
+      "sequence": 11
     },
     {
       "id": "25-schedule-import",
@@ -578,7 +500,7 @@
       "page": "25-schedule-import/lesson.html",
       "recordingLimitations": "نوع التحديث يصف الإصدار؛ لا يفصل هذا البناء خط أساس ثابتاً عن برنامج حالي مستقل. المثال مقدم بانتظار الاعتماد.",
       "visualReview": "sampled-frames",
-      "sequence": 14
+      "sequence": 12
     },
     {
       "id": "26-linking",
@@ -618,7 +540,7 @@
       "page": "26-linking/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 15
+      "sequence": 13
     },
     {
       "id": "27-progress",
@@ -658,7 +580,7 @@
       "page": "27-progress/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 16
+      "sequence": 14
     },
     {
       "id": "28-progress-update",
@@ -699,7 +621,7 @@
       "page": "28-progress-update/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 17
+      "sequence": 15
     },
     {
       "id": "29-period",
@@ -739,7 +661,7 @@
       "page": "29-period/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 18
+      "sequence": 16
     },
     {
       "id": "30-financial",
@@ -778,7 +700,7 @@
       "page": "30-financial/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 19
+      "sequence": 17
     },
     {
       "id": "31-payment",
@@ -819,7 +741,7 @@
       "page": "31-payment/lesson.html",
       "recordingLimitations": "أسماء المرفقات وأحجامها محفوظة دون محتواها في هذه النسخة التجريبية. ينتهي المثال قيد التدقيق، دون صرف أو تحويل أموال.",
       "visualReview": "sampled-frames",
-      "sequence": 20
+      "sequence": 18
     },
     {
       "id": "32-change-register",
@@ -858,7 +780,7 @@
       "page": "32-change-register/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 21
+      "sequence": 19
     },
     {
       "id": "33-change-create",
@@ -919,7 +841,7 @@
       "page": "33-change-create/lesson.html",
       "recordingLimitations": "المقطعان المحدّثان يشرحان المقترحات في الإنشاء والتجهيز دون حفظ أو إرسال. المعاينة تستخدم كمية البند الأصلية؛ يجب مراعاة الأوامر السابقة قبل اعتماد أي تغيير. المقطع السابق يعرض مرحلة الإرسال للمراجعة فقط.",
       "visualReview": "sampled-frames",
-      "sequence": 22
+      "sequence": 20
     },
     {
       "id": "34-change-detail",
@@ -961,7 +883,7 @@
       "page": "34-change-detail/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 23
+      "sequence": 21
     },
     {
       "id": "35-risks",
@@ -1000,7 +922,7 @@
       "page": "35-risks/lesson.html",
       "recordingLimitations": "عرض السجل الفارغ وقواعده؛ لا يتاح إنشاء خطر من الشاشة الحالية.",
       "visualReview": "sampled-frames",
-      "sequence": 24
+      "sequence": 22
     },
     {
       "id": "36-meetings",
@@ -1040,7 +962,7 @@
       "page": "36-meetings/lesson.html",
       "recordingLimitations": "زر الإنشاء غير منفذ؛ المقطع يشرح السجل وحدوده.",
       "visualReview": "sampled-frames",
-      "sequence": 25
+      "sequence": 23
     },
     {
       "id": "37-documents",
@@ -1082,7 +1004,7 @@
       "page": "37-documents/lesson.html",
       "recordingLimitations": "المكتبة تجمع بيانات المرفقات من وحدات المشروع. محتوى الملفات غير محفوظ في هذه النسخة؛ لا تتوفر معاينة أو تنزيل. تبويب الوثائق وإصداراتها مستقل عن مرفقات الوحدات الأخرى.",
       "visualReview": "sampled-frames",
-      "sequence": 26
+      "sequence": 24
     },
     {
       "id": "38-model",
@@ -1123,7 +1045,7 @@
       "page": "38-model/lesson.html",
       "recordingLimitations": "اتصال Forge فعلي مع استعراض المبنى والخصائص والمقطع. روابط عناصر EPM بالكميات والأنشطة غير معدة لهذا المثال.",
       "visualReview": "sampled-frames",
-      "sequence": 27
+      "sequence": 25
     },
     {
       "id": "39-project-alerts",
@@ -1164,7 +1086,7 @@
       "page": "39-project-alerts/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 28
+      "sequence": 26
     },
     {
       "id": "40-project-reports",
@@ -1202,7 +1124,7 @@
       "page": "40-project-reports/lesson.html",
       "recordingLimitations": "معاينة وشرح فقط؛ التشغيل والتصدير غير منفذين.",
       "visualReview": "sampled-frames",
-      "sequence": 29
+      "sequence": 27
     },
     {
       "id": "41-audit",
@@ -1243,7 +1165,7 @@
       "page": "41-audit/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 30
+      "sequence": 28
     },
     {
       "id": "14-overview",
@@ -1291,7 +1213,7 @@
       "page": "14-overview/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 31
+      "sequence": 29
     },
     {
       "id": "08-workspace",
@@ -1329,7 +1251,7 @@
       "page": "08-workspace/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 32
+      "sequence": 30
     },
     {
       "id": "04-projects",
@@ -1367,7 +1289,7 @@
       "page": "04-projects/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 33
+      "sequence": 31
     },
     {
       "id": "06-contracts",
@@ -1405,7 +1327,7 @@
       "page": "06-contracts/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 34
+      "sequence": 32
     },
     {
       "id": "09-schedule-control",
@@ -1443,7 +1365,7 @@
       "page": "09-schedule-control/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 35
+      "sequence": 33
     },
     {
       "id": "10-alerts",
@@ -1481,7 +1403,7 @@
       "page": "10-alerts/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 36
+      "sequence": 34
     },
     {
       "id": "11-reports",
@@ -1519,7 +1441,7 @@
       "page": "11-reports/lesson.html",
       "recordingLimitations": "عرض التعريفات والجاهزية فقط؛ التشغيل والجدولة غير مثبتين.",
       "visualReview": "sampled-frames",
-      "sequence": 37
+      "sequence": 35
     },
     {
       "id": "03-portfolio",
@@ -1557,7 +1479,7 @@
       "page": "03-portfolio/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 38
+      "sequence": 36
     },
     {
       "id": "01-landing",
@@ -1594,7 +1516,7 @@
       "page": "01-landing/lesson.html",
       "recordingLimitations": null,
       "visualReview": "sampled-frames",
-      "sequence": 39
+      "sequence": 37
     },
     {
       "id": "02-login",
@@ -1632,11 +1554,11 @@
       "page": "02-login/lesson.html",
       "recordingLimitations": "الدخول تجريبي؛ لا يتحقق من كلمة المرور.",
       "visualReview": "sampled-frames",
-      "sequence": 40
+      "sequence": 38
     }
   ],
-  "videoCount": 45,
-  "totalFastDurationSeconds": 3871.034946,
+  "videoCount": 43,
+  "totalFastDurationSeconds": 3817.501612,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
   "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل دليل. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
@@ -1646,6 +1568,88 @@
     {
       "id": "12-rules",
       "reason": "Standalone rules-reference module is absent from the published reference prototype."
+    }
+  ],
+  "deferredGuides": [
+    {
+      "id": "15-information",
+      "title": "معلومات المشروع",
+      "route": "/projects/{id}/information",
+      "source": "information/information",
+      "purpose": "مراجعة هوية المشروع والتمويل والجهات المسؤولة.",
+      "steps": [
+        "افتح معلومات المشروع",
+        "راجع أقسام الهوية والتنظيم والتمويل",
+        "استخدم تعديل عند توفر الصلاحية ثم احفظ",
+        "راجع سجل النشاط"
+      ],
+      "rules": [
+        "التحرير داخل البطاقة نفسها.",
+        "الكلفة المقررة تختلف عن القيمة المشتقة من العقود."
+      ],
+      "limits": "المقطع يعرض بطاقة محفوظة؛ لا يوثق تعديل الحقول الحالية.",
+      "video": "15-information/walkthrough.fast.ar.mp4",
+      "guide": "15-information/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "15-information",
+          "label": "معلومات المشروع",
+          "path": "15-information/walkthrough.fast.ar.mp4",
+          "original": "15-information/walkthrough.ar.mp4",
+          "durationSeconds": 25.066667,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "15-information/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 3,
+      "deferredReason": "Awaiting recordings with complete project data."
+    },
+    {
+      "id": "13-project-workspace",
+      "title": "التنقل داخل مساحة المشروع",
+      "route": "/projects/{id}",
+      "source": "workspace/workspace",
+      "purpose": "الوصول إلى وحدات المشروع مع الحفاظ على سياق واحد.",
+      "steps": [
+        "افتح مشروعاً من السجل",
+        "تحقق من اسم المشروع ورمزه",
+        "تنقل بين المعلومات والعقود والإنجاز",
+        "اختر عقداً عندما تطلب الوحدة ذلك"
+      ],
+      "rules": [
+        "الدخول الافتراضي يفتح النظرة العامة.",
+        "الوحدات التعاقدية تحتاج عقداً؛ الإنجاز يعرض تجميع المشروع."
+      ],
+      "limits": "المساحة حاوية تنقل وليست عملية اعتماد مستقلة.",
+      "video": "13-project-workspace/walkthrough.fast.ar.mp4",
+      "guide": "13-project-workspace/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-09-22/2026-09-23",
+      "currentBuildVerified": false,
+      "videos": [
+        {
+          "id": "13-project-workspace",
+          "label": "التنقل داخل مساحة المشروع",
+          "path": "13-project-workspace/walkthrough.fast.ar.mp4",
+          "original": "13-project-workspace/walkthrough.ar.mp4",
+          "durationSeconds": 28.466667,
+          "speed": 1.5,
+          "audio": false,
+          "fullDecodePassed": true
+        }
+      ],
+      "page": "13-project-workspace/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 4,
+      "deferredReason": "Awaiting recordings with complete project data."
     }
   ]
 }
