@@ -29,12 +29,13 @@
         {
           "id": "07-entities",
           "label": "سجل مساحات العمل",
-          "path": "07-entities/walkthrough.fast.ar.mp4",
+          "path": "07-entities-voice-sample/workspace-creation.voice.ar.mp4",
           "original": "07-entities/walkthrough.ar.mp4",
-          "durationSeconds": 96.133333,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
+          "durationSeconds": 145.424,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "ar-IQ-BasselNeural"
         }
       ],
       "page": "07-entities/lesson.html",
@@ -795,7 +796,7 @@
         "التقديم والاعتماد والصرف حالات مختلفة.",
         "لا يُسجل المصروف لمجرد إنشاء المطالبة."
       ],
-      "limits": "بيانات تدريبية؛ تحفظ بيانات المرفقات الوصفية فقط. ينتهي الدرس قيد التدقيق.",
+      "limits": "بيانات تدريبية؛ تحفظ بيانات المرفقات الوصفية فقط. ينتهي الدليل قيد التدقيق.",
       "video": "31-payment-r4/walkthrough.fast.ar.mp4",
       "guide": "31-payment/WALKTHROUGH.ar.md",
       "status": "recorded-with-limitations",
@@ -1633,10 +1634,10 @@
     }
   ],
   "videoCount": 45,
-  "totalFastDurationSeconds": 3873.9650380000003,
+  "totalFastDurationSeconds": 3923.2557049999996,
   "screenCoverageComplete": true,
   "functionalCoverageComplete": false,
-  "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل درس. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
+  "completionNote": "لكل شاشة فيديو ودليل. بعض العمليات غير متاحة في البناء الحالي؛ موضحة في كل دليل. المراجعة البصرية بعينات وليست مشاهدة كاملة لكل إطار.",
   "latestUpdates": "updates-20260923/index.html",
   "narration": "updates-20260923/NARRATION.ar.html",
   "excludedModules": [
