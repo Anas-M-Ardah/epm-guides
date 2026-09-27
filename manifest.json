@@ -133,12 +133,12 @@
         {
           "id": "16-contract-create-supply",
           "label": "مثال التجهيز",
-          "path": "16-contract-create-supply/walkthrough.fast.ar.mp4",
-          "original": "16-contract-create-supply/walkthrough.ar.mp4",
-          "durationSeconds": 174,
-          "speed": 1.5,
-          "audio": false,
-          "fullDecodePassed": true
+          "path": "voice-preview/contract-supply/contract.mp4",
+          "durationSeconds": 172.6,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "ElevenLabs George"
         }
       ],
       "page": "16-contract-create/lesson.html",
