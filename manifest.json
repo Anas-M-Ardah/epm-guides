@@ -34,7 +34,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "07-entities/lesson.html",
@@ -75,7 +75,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         },
         {
           "id": "05-project-create-supply",
@@ -85,7 +85,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "05-project-create/lesson.html",
@@ -127,7 +127,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         },
         {
           "id": "16-contract-create-supply",
@@ -137,7 +137,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "16-contract-create/lesson.html",
@@ -183,7 +183,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "17-contract-edit/lesson.html",
@@ -231,7 +231,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "19-boq/lesson.html",
@@ -274,7 +274,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "21-supply/lesson.html",
@@ -319,7 +319,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "22-distribution/lesson.html",
@@ -371,7 +371,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "23-receipts/lesson.html",
@@ -417,7 +417,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "25-schedule-import/lesson.html",
@@ -460,7 +460,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "26-linking/lesson.html",
@@ -505,7 +505,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "28-progress-update/lesson.html",
@@ -551,7 +551,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "31-payment/lesson.html",
@@ -603,11 +603,11 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "33-change-create/lesson.html",
-      "recordingLimitations": "مقطع الإنشاء بصوت George يوضح الإرسال للمراجعة؛ مقطع التجهيز السابق لم يُحدَّث بعد.",
+      "recordingLimitations": "مقطع الإنشاء يوضح الإرسال للمراجعة؛ مقطع التجهيز السابق لم يُحدَّث بعد.",
       "visualReview": "sampled-frames",
       "sequence": 13,
       "poster": "33-change-create/george-poster.jpg"
@@ -662,7 +662,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "34-change-detail/lesson.html",
@@ -715,7 +715,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "14-overview/lesson.html",
@@ -737,7 +737,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "video": "voice-preview/sla-payments/sla-payments.mp4",
@@ -802,7 +802,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "38-model/lesson.html",
@@ -851,7 +851,7 @@
           "speed": 1,
           "audio": true,
           "fullDecodePassed": true,
-          "syntheticVoice": "ElevenLabs George"
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "page": "10-alerts/lesson.html",
@@ -956,5 +956,5 @@
       "deferredReason": "Awaiting recordings with complete project data."
     }
   ],
-  "voice": "ElevenLabs George"
+  "voice": "تعليق صوتي عربي"
 }
