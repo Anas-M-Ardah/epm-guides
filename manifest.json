@@ -912,6 +912,16 @@
           "audio": true,
           "fullDecodePassed": true,
           "syntheticVoice": "تعليق صوتي عربي"
+        },
+        {
+          "id": "37-documents-files-revisions",
+          "label": "معاينة الملفات وإدارة المراجعات",
+          "path": "37-documents/files-revisions.mp4",
+          "durationSeconds": 106.627995,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "تعليق صوتي عربي"
         }
       ],
       "video": "37-documents/video.mp4",
