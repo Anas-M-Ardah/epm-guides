@@ -16,7 +16,7 @@
 14. [اعتماد الأمر التغييري وتطبيق أثره](34-change-detail/lesson.html)
 15. [إعادة توزيع التجهيزات بين الجهات المستفيدة](33-supply-redistribution/lesson.html)
 16. [قراءة نتائج العمل على لوحات المشروعين](14-overview/lesson.html)
-17. [مُهَل تدقيق الدفعات وتداول المعاملة](42-sla-payments/lesson.html)
+17. [مهل التدقيق والتصعيد التلقائي](42-sla-payments/lesson.html)
 18. [التنبيهات ومهل التدقيق](10-alerts/lesson.html)
 19. [إنشاء التقارير وجدولتها ومتابعة التصعيد](11-reports/lesson.html)
 20. [الوثائق والمخططات ومعاينة الملفات](37-documents/lesson.html)
