@@ -1,5 +1,5 @@
 {
-  "preparedOn": "2026-10-02",
+  "preparedOn": "2026-10-04",
   "acceptanceComplete": false,
   "screens": [
     {
@@ -20,7 +20,7 @@
       "video": "07-entities/video.mp4",
       "guide": "07-entities/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -92,7 +92,7 @@
       "video": "05-project-create/video.mp4",
       "guide": "05-project-create/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -152,7 +152,7 @@
       "video": "16-contract-create/video.mp4",
       "guide": "16-contract-create/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -198,7 +198,7 @@
       "video": "19-boq/video.mp4",
       "guide": "19-boq/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -243,7 +243,7 @@
       "video": "21-supply/video.mp4",
       "guide": "21-supply/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -289,7 +289,7 @@
       "video": "22-distribution/video.mp4",
       "guide": "22-distribution/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -347,7 +347,7 @@
       "video": "23-receipts/video.mp4",
       "guide": "23-receipts/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -399,7 +399,7 @@
       "video": "25-schedule-import/video.mp4",
       "guide": "25-schedule-import/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -448,7 +448,7 @@
       "video": "26-linking/video.mp4",
       "guide": "26-linking/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -503,7 +503,7 @@
       "video": "28-progress-update/video.mp4",
       "guide": "28-progress-update/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -566,7 +566,7 @@
       "page": "29-period/lesson.html",
       "guide": "29-period/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "poster": "29-period/poster.jpg",
       "sequence": 11,
       "rules": [],
@@ -602,7 +602,7 @@
       "video": "31-payment/video.mp4",
       "guide": "31-payment/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -650,7 +650,7 @@
       "video": "33-change-create/video.mp4",
       "guide": "33-change-create/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -700,7 +700,7 @@
       "video": "34-change-detail/video.mp4",
       "guide": "34-change-detail/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -749,7 +749,7 @@
       ],
       "poster": "33-supply-redistribution/poster.jpg",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "steps": [
         "نفتح مسودة أمر إعادة التوزيع. نراجع العقد ونوع التغيير والسبب المسجّل. في هذا المثال نعيد تخصيص جهازٍ واحد بين جهتين، دون زيادة عدد أجهزة الصنف أو تغيير سعره.",
         "ننتقل إلى البنود المتأثرة ونفتح تحرير بند أجهزة الطاقة غير المنقطعة. يظهر التوزيع الحالي، ونحدّد جهة التحويل منها والجهة المستفيدة الجديدة.",
@@ -796,7 +796,7 @@
       "video": "14-overview/video.mp4",
       "guide": "14-overview/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -844,7 +844,7 @@
       "page": "42-sla-payments/lesson.html",
       "guide": "42-sla-payments/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "steps": [
         "من الموقف المالي، نفتح مهل التدقيق. تظهر الجهة التي توجد لديها المعاملة، والمدة المنقضية، والحدّ المسموح. في هذه المرحلة، نقرأ المهلة إلى جانب حالة المعاملة لمعرفة ما يحتاج إلى متابعة.",
         "يُطلق المهندس المقيم المعاملة بعد تدقيقه. تظهر المرحلة التالية، ثم ننتقل إلى الدور المسؤول عنها لاستكمال المسار.",
@@ -882,7 +882,7 @@
       "video": "10-alerts/video.mp4",
       "guide": "10-alerts/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "currentBuildVerified": true,
       "videos": [
         {
@@ -945,7 +945,7 @@
       "page": "37-documents/lesson.html",
       "guide": "37-documents/WALKTHROUGH.ar.md",
       "status": "recorded",
-      "captureDate": "2026-10-02",
+      "captureDate": "2026-10-04",
       "poster": "37-documents/poster.jpg",
       "sequence": 19,
       "rules": [],
@@ -953,6 +953,56 @@
       "currentBuildVerified": true,
       "recordingLimitations": null,
       "visualReview": "sampled-frames"
+    },
+    {
+      "id": "38-model",
+      "title": "استعراض النموذج التوضيحي وسجلات العناصر",
+      "route": "/projects/{id}/model",
+      "source": "model/model",
+      "purpose": "نستعرض نموذجاً توضيحياً لحرم جامعة كربلاء، داخل عارض أوتودِسك المتصل بالنظام. هذا نموذجٌ لاستكشاف المباني ومكوّناتها بصرياً.",
+      "steps": [
+        "نستعرض نموذجاً توضيحياً لحرم جامعة كربلاء، داخل عارض أوتودِسك المتصل بالنظام. هذا نموذجٌ لاستكشاف المباني ومكوّناتها بصرياً.",
+        "نبدأ بالمشهد العام، ثم نغيّر زاوية النظر لفهم توزيع المباني والمساحات داخل الحرم. نستخدم الدوران والتقريب والإبعاد للانتقال من الصورة الكلية إلى التفاصيل، مع إبقاء موقع المبنى ضمن الحرم واضحاً.",
+        "نقرّب المشهد لرؤية المباني بوضوحٍ أكبر. تغيّر هذه الحركة طريقة العرض، وتساعدنا على فحص الشكل والعلاقات المكانية بين مكوّنات النموذج.",
+        "نفتح شجرة النموذج. تعرض تنظيم العناصر داخل الملف، وتتيح الوصول إلى مبنى أو مجموعةٍ محدّدة من خلال تسلسلها الهرمي.",
+        "نوسّع أحد الفروع، فتظهر مجموعاته الفرعية. نستخدم هذا التسلسل للوصول إلى الجزء المطلوب استعراضه.",
+        "نركّز على مبنى محدّد. تظهر تفاصيله بوضوح، ويمكن مراجعة شكله وعلاقته بالمباني المحيطة أثناء التنقل داخل المشهد.",
+        "نحدّد المبنى ونفتح خصائصه. مصدر هذه البيانات هو ملف النموذج، وهي تصف العنصر المحدّد.",
+        "تتيح قائمة الزر الأيمن العزل والإخفاء والتركيز وإظهار العناصر، للتحكم في المشهد.",
+        "نعود إلى المشهد العام لاستعراض الحرم، ثم ننتقل إلى سجلات النظام أسفل العارض.",
+        "يعرض سجل العناصر التخصص والحالة والإنجاز والبيانات المسجّلة. تساعد التصفية على الوصول إلى السجل المطلوب.",
+        "في إصدارات النموذج، نراجع الإصدار وتاريخه وجهة إصداره وحالته، لتمييز النسخة المعروضة.",
+        "نفتح تفاصيل سجل العنصر وروابطه بالكميات والأنشطة. في هذا المثال، سجلات النظام منفصلة عن عناصر ملف النموذج. التحديد داخل العارض يستكشف المجسّم، ولا يغيّر الكميات أو الإنجاز أو الدفعات.",
+        "يجمع هذا العرض بين استكشاف حرم جامعة كربلاء بصرياً، ومراجعة سجلات العناصر والإصدارات، مع وضوح وظيفة كل جزء."
+      ],
+      "rules": [],
+      "limits": null,
+      "video": "38-model/video.mp4",
+      "guide": "38-model/WALKTHROUGH.ar.md",
+      "status": "recorded",
+      "captureDate": "2026-10-04",
+      "currentBuildVerified": true,
+      "videos": [
+        {
+          "id": "38-model-saber",
+          "label": "استعراض النموذج التوضيحي وسجلات العناصر",
+          "path": "38-model/video.mp4",
+          "durationSeconds": 203.021333,
+          "speed": 1,
+          "audio": true,
+          "fullDecodePassed": true,
+          "syntheticVoice": "تعليق صوتي عربي",
+          "voiceProvider": "ElevenLabs",
+          "voiceName": "Saber",
+          "model": "eleven_v4",
+          "captions": "38-model/captions.ar.vtt"
+        }
+      ],
+      "page": "38-model/lesson.html",
+      "recordingLimitations": null,
+      "visualReview": "sampled-frames",
+      "sequence": 20,
+      "poster": "38-model/poster.jpg"
     }
   ],
   "videoCount": 43,
