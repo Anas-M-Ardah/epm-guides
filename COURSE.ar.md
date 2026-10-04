@@ -14,7 +14,7 @@
 12. [تسجيل الدفعات ومكوّناتها المالية](31-payment/lesson.html)
 13. [إنشاء أمر تغييري وشرح قاعدة العشرين بالمئة](33-change-create/lesson.html)
 14. [اعتماد الأمر التغييري وتطبيق أثره](34-change-detail/lesson.html)
-15. [إعادة توزيع التجهيزات واعتماد الأثر الصفري](33-supply-redistribution/lesson.html)
+15. [إعادة توزيع التجهيزات بين الجهات المستفيدة](33-supply-redistribution/lesson.html)
 16. [قراءة نتائج العمل على لوحات المشروعين](14-overview/lesson.html)
 17. [مُهَل تدقيق الدفعات وتداول المعاملة](42-sla-payments/lesson.html)
 18. [متابعة التنبيهات والإقرار بها](10-alerts/lesson.html)
